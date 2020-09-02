@@ -1,0 +1,48 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.22.4/libexec/bin/yarn.js add -D @typescript-eslint
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Applications/Xamarin Workbooks.app/Contents/SharedSupport/path-bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.16.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@typescript-eslint: Request "https://registry.yarnpkg.com/@typescript-eslint" returned a 405
+      at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:66996:18)
+      at Request.self.callback (/usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:140748:22)
+      at Request.emit (events.js:311:20)
+      at Request.<anonymous> (/usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:141720:10)
+      at Request.emit (events.js:311:20)
+      at IncomingMessage.<anonymous> (/usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:141642:12)
+      at Object.onceWrapper (events.js:417:28)
+      at IncomingMessage.emit (events.js:323:22)
+      at endReadableNT (_stream_readable.js:1204:12)
+      at processTicksAndRejections (internal/process/task_queues.js:84:21)
+
+npm manifest: 
+  {
+    "name": "5",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "devDependencies": {
+      "@typescript-eslint/eslint-plugin": "^4.0.1",
+      "@typescript-eslint/parser": "^4.0.1",
+      "eslint": "^7.8.1",
+      "eslint-plugin-react": "^7.20.6",
+      "typescript": "^4.0.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
